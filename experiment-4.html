@@ -1,0 +1,73 @@
+<!-- Student Registration Form using HTML5 Validation -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Student Form</title>
+</head>
+
+<body>
+
+    <h2 align="center">Student Registration Form</h2>
+
+    <form>
+
+        <table border="1" cellpadding="10" cellspacing="0" align="center">
+
+            <tr>
+                <td>Name </td>
+                <td>
+                    <input type="text" required minlength="3">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Email </td>
+                <td>
+                    <input type="email" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Password </td>
+                <td>
+                    <input type="password" required minlength="6">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Age </td>
+                <td>
+                    <input type="number" min="18" max="30" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>DOB</td>
+                <td>
+                    <input type="date" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Phone</td>
+                <td>
+                    <input type="tel" pattern="[0-9]{10}" placeholder="Enter 10 digit number" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Register">
+                    <input type="reset" value="Clear">
+                </td>
+            </tr>
+
+        </table>
+
+    </form>
+
+</body>
+
+</html>
