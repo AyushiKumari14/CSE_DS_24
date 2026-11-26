@@ -1,0 +1,46 @@
+<!-- Create a responsive webpage using media queries -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Responsive Page</title>
+
+    <style>
+        body {
+            background-color: rgb(148, 221, 164);
+            text-align: center;
+            font-family: Arial;
+        }
+
+        .box {
+            background-color: white;
+            padding: 30px;
+            margin: 20px;
+        }
+
+        /* For mobile screens */
+        @media screen and (max-width: 600px) {
+            body {
+                background-color: lightpink;
+            }
+
+            .box {
+                padding: 10px;
+                font-size: 14px;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="box">
+        <h1>Responsive Webpage</h1>
+        <p>This page adjusts according to screen size.</p>
+    </div>
+
+</body>
+
+</html>

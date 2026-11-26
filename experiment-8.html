@@ -1,0 +1,59 @@
+<!-- Design layouts using float, inline-block and flexbox -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSS Layouts</title>
+
+    <style>
+        .float {
+            float: left;
+            background-color: lightblue;
+            padding: 20px;
+            margin: 10px;
+        }
+
+        .inline {
+            display: inline-block;
+            background-color: rgb(210, 231, 69);
+            padding: 20px;
+            margin: 10px;
+        }
+
+        .flexbox {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .flexbox div {
+            background-color: pink;
+            padding: 20px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h2>Float layout</h2>
+    <div class="float">Box1</div>
+    <div class="float">Box2</div>
+
+    <div style="clear:both;"></div>
+
+    <h2>Inline block</h2>
+    <div class="inline">Box1</div>
+    <div class="inline">Box2</div>
+
+    <h2>Flexbox layout</h2>
+    <div class="flexbox">
+        <div>Box1</div>
+        <div>Box2</div>
+        <div>Box3</div>
+    </div>
+
+</body>
+
+</html>
